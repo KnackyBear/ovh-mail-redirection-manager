@@ -34,21 +34,25 @@ To list current redirection
 ```
     python mail-redirection.py list
 ```
-You can filter the list by from and to attributes
+You can filter the list by source and destination
 ```
-    python mail-redirection.py list --from <mail from> --to <mail to>
+    python mail-redirection.py list --from <mail source> --to <mail destination>
 ```
 
 To add a new redirection
 ```
-    python mail-redirection.py add --from <mail from>  --to <mail to>
+    python mail-redirection.py add --from <mail source>  --to <mail destination>
 ```
 
 To remove a redirection
 ```
-    python mail-redirection.py remove --from <mail from>
+    python mail-redirection.py remove --from <mail source>
 ```
 
 ## Author
 
 Julien Vinet <contact@julienvinet.dev>
+
+## License
+
+GNU GENERAL PUBLIC LICENSE Version 3
